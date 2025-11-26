@@ -20,3 +20,7 @@ Data Model: A CounterItem data class holds a unique id and the current value.
 State: The main screen holds a remember { mutableStateListOf<CounterItem>() }.
 
 Rendering: The LazyColumn iterates through this list. When the "+" or "-" buttons are clicked, the specific item in the list is updated, triggering a recomposition of just that row.
+
+
+![Screenshot 2025-11-26 222907](https://github.com/user-attachments/assets/8d8ed50a-cc0e-41a3-8211-2d0da9d8150c)
+<img width="362" height="752" alt="image" src="https://github.com/user-attachments/assets/5ccf63dc-d581-4af9-8083-b07b2faa9a79" />
